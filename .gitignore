@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+*.npy
+rev 2/
+samples/
+*.h5
