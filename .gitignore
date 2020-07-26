@@ -1,5 +1,8 @@
 .ipynb_checkpoints/
 *.npy
 rev 2/
+Manga109/
 samples/
 *.h5
+Object Detection/
+keras-retinanet-master/
