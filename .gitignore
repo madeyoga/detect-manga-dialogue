@@ -4,10 +4,10 @@ rev 2/
 Manga109/
 samples/
 *.h5
-Object Detection/
 keras-retinanet-master/
 Train_YoloV3 .*
 yolo_custom_detection/
 data/
 train/
 validation/
+Samples/
