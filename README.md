@@ -6,8 +6,8 @@ Classify & detect dialogue bubbles
 - selectivesearch
 - tensorflow2
 
-## Dataset
-Contains 3 labels: 
+## Image Classifier & Custom Dataset
+Custom Dataset, contains 3 labels: 
 - Cloud
 - Oval
 - Square
@@ -16,7 +16,7 @@ Link : https://drive.google.com/drive/folders/15hcGAZtAKd9UMmt-kLcD-3nT99uLC7Qv?
 
 Credits for this dataset to https://github.com/Shiroechi
 
-## YoloV3 & Manga109 Text Detection
+## YoloV3 Object Detection & Manga109 Dataset
 ### Figure 1
 ![Figure_1](https://github.com/madeyoga/detect-bubble/blob/master/Object%20Detection/Output/Figure_1.png)
 
