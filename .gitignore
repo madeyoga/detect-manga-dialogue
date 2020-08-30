@@ -11,3 +11,5 @@ data/
 train/
 validation/
 Samples/
+*.zip
+*.rar
