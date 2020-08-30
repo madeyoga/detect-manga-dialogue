@@ -16,7 +16,7 @@ Link : https://drive.google.com/drive/folders/15hcGAZtAKd9UMmt-kLcD-3nT99uLC7Qv?
 Credits for this dataset to https://github.com/Shiroechi
 
 ## Darknet YoloV3 Object Detection & Manga109 Dataset
-Download the [yolov3_manga109_weights](https://drive.google.com/file/d/1-8A9wdYlCb5V6nX5HzYS_FByXTR1bD9X/view?usp=sharing) and the [yolov3_configuration_file](https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov3.cfg)
+Download the [yolov3_manga109_weights](https://drive.google.com/file/d/1-8A9wdYlCb5V6nX5HzYS_FByXTR1bD9X/view?usp=sharing) and the [yolov3_configuration_file](https://drive.google.com/file/d/13iFvDpQPPp5Lrn9Au0A9lPgAkZHXspyM/view?usp=sharing)
 
 ## Use cv2 for detection
 
