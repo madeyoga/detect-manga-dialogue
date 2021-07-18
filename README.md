@@ -77,3 +77,4 @@ for img_path in images_path:
 ## Output
 ![](https://github.com/madeyoga/detect-manga-dialogue/blob/master/Object%20Detection/Output/yolov3_manga109_result.png)
 
+Manga: _PLANET7 page 7_
