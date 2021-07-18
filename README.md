@@ -1,36 +1,11 @@
-# detect-bubble
-Classify & detect dialogue on manga pages
+# Detect text dialogue
+Detect dialogue on manga pages
 
-## requirements
-- opencv-python
-- tensorflow2
-
-```
-tensorboard==2.3.0
-tensorboard-plugin-wit==1.7.0
-tensorflow-gpu==2.3.0
-tensorflow-gpu-estimator==2.3.0
-```
-- cuda 10.1 
-- cudnn 7.6.5
-
-## Image Classifier & Custom Dataset
-Custom Dataset, contains 3 labels: 
-- Cloud
-- Oval
-- Square
-
-Link : https://drive.google.com/drive/folders/15hcGAZtAKd9UMmt-kLcD-3nT99uLC7Qv?usp=sharing
-
-Credits for this dataset to https://github.com/Shiroechi
-
-#### Note
-The classifier actually does not have a good performance (failed) when tested for object detection (detecting bubbles). 
-
-So I changed the dataset, using [Manga109 Dataset](http://www.manga109.org/en/) and use [darknet](https://github.com/AlexeyAB/darknet) with YoloV3 configuration to detect the dialogue texts instead.
 
 ## Darknet YoloV3 Object Detection & Manga109 Dataset
 Download the trained [yolov3_manga109_weights](https://drive.google.com/file/d/1-8A9wdYlCb5V6nX5HzYS_FByXTR1bD9X/view?usp=sharing) and the [configuration_file](https://drive.google.com/file/d/17e0KZ5EwkaSYTj_DsUumsIxXG3iPBqnt/view?usp=sharing)
+
+[Train directory](https://drive.google.com/drive/folders/1XKPBDje0gmvX5UV6qVcHjtbMZ6xMTilB?usp=sharing)
 
 ## Use cv2 for detection
 
@@ -98,3 +73,7 @@ for img_path in images_path:
     plt.imshow(img)
     plt.show()
 ```
+
+## Output
+![](https://github.com/madeyoga/detect-manga-dialogue/blob/master/Object%20Detection/Output/yolov3_manga109_result.png)
+
