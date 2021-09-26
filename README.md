@@ -1,5 +1,5 @@
 # Detect text dialogue
-Detect dialogue on manga pages
+Detect dialogue on manga pages using yolov3 trained with Manga109 dataset
 
 
 ## Darknet YoloV3 Object Detection & Manga109 Dataset
