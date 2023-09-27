@@ -3,9 +3,7 @@ Detect dialogue on manga pages using yolov3 trained with Manga109 dataset
 
 
 ## Darknet YoloV3 Object Detection & Manga109 Dataset
-Download the trained [yolov3_manga109_weights](https://drive.google.com/file/d/1-8A9wdYlCb5V6nX5HzYS_FByXTR1bD9X/view?usp=sharing) and the [configuration_file](https://drive.google.com/file/d/17e0KZ5EwkaSYTj_DsUumsIxXG3iPBqnt/view?usp=sharing)
-
-[Train directory](https://drive.google.com/drive/folders/1XKPBDje0gmvX5UV6qVcHjtbMZ6xMTilB?usp=sharing)
+Download the trained [yolov3_manga109_weights](https://drive.google.com/file/d/1cGtd3aPrHQEF-0A29Us6WoCY9J2H7HtU/view?usp=sharing) and the [configuration_file](https://drive.google.com/file/d/1-RrcGBDnGS435Zt7NAIkx1R6yJQunBdw/view?usp=sharing)
 
 ## Use cv2 for detection
 
